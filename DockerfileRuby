@@ -1,0 +1,19 @@
+FROM ubuntu:22.04
+
+ENV TZ=Europe/Warsaw
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone 
+
+RUN apt update && apt install -y \
+  ruby-full \
+  wget \
+  vim \
+  git
+
+RUN yes | gem install nokogiri sequel
+EXPOSE 8888
+
+RUN useradd -ms /bin/bash student 
+RUN adduser student sudo
+
+USER student
+WORKDIR /home/student/
