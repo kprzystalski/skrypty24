@@ -87,3 +87,60 @@ Należy stworzyć prostego runnera (Mario) w PhaserJS.
 
 5.0 Generator poziomów 
 
+
+**REST API pod sklep Lua**
+
+Należy stworzyć REST API z modelami na bazie frameworka Lapis w Lua lub MoonScript (https://moonscript.org/). 
+
+3.0 Endpointy podN kategorie oraz produkty CRUD (Create, read (wiele, jeden), update, delete) zrobione na listach zwracane w formie JSONów
+
+3.5 Należy modele stworzyć za pomocą lapis.db.model
+
+4.0 To wszystko co wcześniej, ale w MoonScript
+
+4.5 Zapis obrazów (PNG/JPG) produktów na GCS: https://github.com/leafo/cloud_storage lub innej chmurze
+
+5.0 Testy API, np. za pomocą paczek https://kyne.com.au/~mark/software/lua-cjson-manual.html, https://github.com/diegonehab/luasocket
+
+
+**Tetris w Lua**
+
+Należy stworzyć grę Tetris w Lua na frameworku Löve (https://love2d.org/). 
+
+3.0 Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4 rodzaje klocków
+
+3.5 Zapis i odczyt gier
+
+4.0 Dodanie efektów dźwiękowych przy akcjach
+
+4.5 Dodanie animacji przy zbijaniu klocków
+
+5.0 Wersja na iOS lub Android z implementacją touch zamiast klawiatury
+
+
+**Crawler w Ruby**
+
+Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby wykorzystują bibliotekę Nokogiri.
+
+3.0 Należy pobrać podstawowe dane o produktach (tytuł, cena), dowolna kategoria
+
+3.5 Należy pobrać podstawowe dane o produktach wg słów kluczowych
+
+4.0 Należy rozszerzyć dane o produktach o dane szczegółowe widoczne tylko na podstronie o produkcie
+
+4.5 Należy zapisać linki do produktów
+
+5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
+
+
+**Mario w Ruby2d**
+
+3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które można wpaść i zginąć
+
+3.5 Należy dodać opcję zbierania punktów
+
+4.0 Należy dodać przeciwników, których można zabić oraz 3 życia
+
+4.5 Ładowanie poziomów z pliku
+
+5.0 Generator poziomów 
